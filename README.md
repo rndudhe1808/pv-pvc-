@@ -32,4 +32,4 @@ Advantages of using PV and PVC with NFS:
 - **Decoupling Storage from Compute**: PV and PVC provide a decoupled approach, separating the storage configuration from the application, making it easier to manage and maintain the storage layer separately from the application layer.
 - **High Availability**: By utilizing PVs, you can ensure high availability by creating multiple replicas of your NFS server and using volume replication features of NFS.
 
-Keep in mind that the exact steps and configuration details may vary based on your specific Kubernetes setup and NFS server configuration. Make sure to refer to the official documentation and best practices for Kubernetes and NFS to ensure a smooth and secure deployment.
+Keep in mind that the exact steps and configuration details may vary based on your specific Kubernetes setup and NFS server configuration. Make sure to refer to the official documentation and best practices for Kubernetes and NFS to ensure a smooth and secure deployment....
