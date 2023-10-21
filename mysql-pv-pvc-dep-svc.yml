@@ -63,9 +63,9 @@ spec:
         - containerPort: 3306
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: alexa
+          value: admin
         - name: MYSQL_DATABASE
-          value: verma
+          value: redhat
         volumeMounts:
         - name: mysqlvol 
           mountPath: /var/lib/mysql
