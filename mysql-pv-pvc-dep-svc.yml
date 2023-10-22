@@ -1,6 +1,6 @@
 
 
-# Create MYSQL PV
+# Create MYSQL Persistent volume
 
 apiVersion: v1
 kind: PersistentVolume
