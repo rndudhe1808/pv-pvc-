@@ -3,7 +3,7 @@ Deploying WordPress and MySQL in Kubernetes using Persistent Volumes (PV) and Pe
 
 1. Set up NFS Server on "killerkoda node01":
    - Install NFS server software on "killerkoda node01" if not already installed.
-   - Configure NFS exports on "killerkoda node01" to share a directory **(/test & /test2)** that will be used for storing the data of WordPress and MySQL.
+   - Configure NFS exports on a "killerkoda node01" to share a directory **(/test & /test2)** that will be used for storing the data of WordPress and MySQL.
 
 2. Create Persistent Volumes (PVs) for WordPress and MySQL:
    - On the Kubernetes cluster, create PV definitions that represent the NFS shares exported by the "killerkoda node01".
